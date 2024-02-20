@@ -301,7 +301,7 @@ input[type="radio"]{
     border-radius: 10px;
 }
 footer{
-    background-color:grey;
+    background: linear-gradient(0deg, #000000, #000000),
 }
 
 .footer{
@@ -311,14 +311,14 @@ footer{
 }
 .first{
     margin-top: 20px;
-    margin-left: -75px;
+    margin-left: -115px;
 }
 .second{
     margin-top: 20px;
     margin-left: -75px;
     font-weight: 400;
     font-size: large;
-    width: 275px;
+    width: 430px;
 }
 .third{
     margin-left: -89px;
@@ -328,11 +328,9 @@ footer{
     font-weight: 400;
     font-size: large;
     text-align: left;
+    margin-top: 31px;
 }
 
-.footer > div{
-    width: 223px;
-}
 
 
 

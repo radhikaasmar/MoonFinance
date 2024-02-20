@@ -2,18 +2,20 @@ html{
     background-color: black;
     color: white;
     font-size: 62.5%;
-    font-family: 'Poppins';
+    font-family: 'Gothic A1';
 }
 body {
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Gothic A1';
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid white;
+    height: 80px;
 }
+
 nav {
     margin: 4em;
 }
@@ -21,14 +23,19 @@ nav ul {
     list-style-type: none;
     display: flex;
     gap: 4.1rem;
-    margin: 0;
+    padding-left: 0;
 }
 nav ul li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 1.6rem;
-    position: relative;
+    position: static;
+}
+nav ul li a:hover{
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 13px;
 }
 .main{
     background: url(/BfemybeKVXCf9pgX9WCxsc\ 1.png);
@@ -161,34 +168,77 @@ nav ul li a {
     margin-right: 250px;
     margin-bottom: 100px;
 }
-.main_4{
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: white;
-    color: black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
 }
-.main_4_text1 h3{
-    font-size: 66px;
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
 }
-.main_4_text1 p{
-    font-size: 24px;
+
+input[type="radio"]{
+    display: none;
 }
-.main_4_text2 p{
-    font-size: 22px;
+
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0s, padding 0.5s;
 }
-.main_4_text1{
-    margin-top: 100px;
-    margin-right: 30px;
-    margin-left: 200px;
-    margin-bottom: 100px;
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
 }
-.main_4_text2{
-    margin-top: 100px;
-    margin-left: 30px;
-    margin-right: 200px;
-    margin-bottom: 100px;
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
 }
+
+
+.faq small{
+    font-size: 13px;
+}
+
+
 .main_5{
     display: flex;
     justify-content: center;
@@ -250,4 +300,39 @@ nav ul li a {
     margin-right: 650px;
     border-radius: 10px;
 }
+footer{
+    background-color:grey;
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.first{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+.second{
+    margin-top: 20px;
+    margin-left: -75px;
+    font-weight: 400;
+    font-size: large;
+    width: 275px;
+}
+.third{
+    margin-left: -89px;
+    margin-right: -70px;
+    margin-top: 16px;
+    list-style: none;
+    font-weight: 400;
+    font-size: large;
+    text-align: left;
+}
+
+.footer > div{
+    width: 223px;
+}
+
+
 

@@ -356,6 +356,49 @@ footer{
     margin-bottom: 3px;
 }
 
+.aboutus_main{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    color: grey;
+    margin: auto;
+  width: 50%;
+  font-size: 3rem;
+}
+.aboutus_main h3{
+    font-weight: bold;
+    color: white;
+}
+.aboutus_people{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    color: grey;
+    margin: auto;
+  width: 50%;
+  font-size: 2rem;
+  display: block;
+  justify-content: center;
+}
+.aboutus_people_first{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.aboutus_people_second{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.aboutus_people_individual{
+    margin: 0rem 5rem 1rem 5rem;
+    text-align: center;
+}
+.aboutus_people_individual p,h3{
+    margin: 0px;
+}
+.aboutus_people_individual h3{
+    color: white;
+}
+
 
 
 

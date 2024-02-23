@@ -2,18 +2,20 @@ html{
     background-color: black;
     color: white;
     font-size: 62.5%;
-    font-family: 'Poppins';
+    font-family: 'Gothic A1';
 }
 body {
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Gothic A1';
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid white;
+    height: 80px;
 }
+
 nav {
     margin: 4em;
 }
@@ -21,14 +23,19 @@ nav ul {
     list-style-type: none;
     display: flex;
     gap: 4.1rem;
-    margin: 0;
+    padding-left: 0;
 }
 nav ul li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 1.6rem;
-    position: relative;
+    position: static;
+}
+nav ul li a:hover{
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 13px;
 }
 .main{
     background: url(/BfemybeKVXCf9pgX9WCxsc\ 1.png);
@@ -36,32 +43,32 @@ nav ul li a {
 }
 .main h1{
     display: flex;
-    justify-content: center;
-    font-size: 129.05px;
+    justify-content: left;
+    height: 300px;
+    margin-left: 100px;
+    font-size: 100px;
     margin-bottom: none;
+    margin-bottom: 0px;
 }
 .main h2{
     display: flex;
-    justify-content: center;
-    font-size: 30.11px;
-    margin-left: 375px;
-    margin-right: 375px;
+    justify-content: left;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 0px;
     font-weight: 500;
-    margin-top: none;
 }
 .main .start_investing{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     color: white;
     text-decoration: none;
+    width: 310px;
     font-size: 39.38px;
-    margin-top: 100px;
     border: 2px solid white;
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #0455BF;
     padding: 10px 25px 10px 25px;
-    margin-left: 650px;
-    margin-right: 650px;
+    margin-left: 100px;
     border-radius: 10px;
 }
 .form_main{
@@ -106,6 +113,7 @@ nav ul li a {
     -o-border-radius: 20px;
     color: white;
     background-color: #939393;
+    margin-bottom: 100px;
 
 }
 
@@ -118,37 +126,43 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 250px;
-    margin-right: 250px;
+    background-color: rgba(4, 85, 191, 1);
     margin-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    ;
 }
-.main_2 h3{
-    font-size: 38px;
-    font-weight: bold;
-}
-.main_2 p{
-    font-size: 28px;
-}
-.main_2 .main_2_img{
-    margin-right: 70px;
-}
-.main_2 .main_2_text{
-    margin-left: 70px;
-}
-.main_3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 200px;
-    background-color: white;
-    color: black;
-}
-.main_3_text h3{
+.main_2_text h3{
     font-size: 80px;
     font-weight: bold;
 }
-.main_3 p{
+.main_2 p{
     font-size: 32px;
+}
+.main_2_text{
+    width: 800px;
+    margin-right: 25px;
+    margin-left: 47px;
+    margin-bottom: 100px;
+}
+.main_2_img{
+    margin-right: 61px;
+}
+.main_3{
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 460px;
+}
+.main_2_img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.main_3_text h3{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
 }
 .main_3_text{
     width: 800px;
@@ -156,39 +170,92 @@ nav ul li a {
     margin-left: 250px;
     margin-bottom: 100px;
 }
-.main_3_img{
-    margin-left: 25px;
-    margin-right: 250px;
-    margin-bottom: 100px;
+.main_3 img{
+    margin-left: 85px;
 }
-.main_4{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
     background-color: white;
-    color: black;
+    color: #1B1B1B;
 }
-.main_4_text1 h3{
-    font-size: 66px;
+
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 135px;
+    margin-bottom: 0px;
 }
-.main_4_text1 p{
-    font-size: 24px;
+.faq h1{
+    font-size: 45px;
+    margin-left: 135px;
+    height: 26px;
+    margin-top: 0px;
 }
-.main_4_text2 p{
-    font-size: 22px;
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
 }
-.main_4_text1{
-    margin-top: 100px;
-    margin-right: 30px;
-    margin-left: 200px;
-    margin-bottom: 100px;
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
 }
-.main_4_text2{
-    margin-top: 100px;
-    margin-left: 30px;
-    margin-right: 200px;
-    margin-bottom: 100px;
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: white;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
 }
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    border: 2px black;
+    background: white;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+
+.faq small{
+    font-size: 13px;
+}
+
+
 .main_5{
     display: flex;
     justify-content: center;
@@ -250,4 +317,45 @@ nav ul li a {
     margin-right: 650px;
     border-radius: 10px;
 }
+footer{
+    background-color: #1B1B1B;
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+    margin-right: -50px;
+}
+.first{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+.second{
+    margin-top: 20px;
+    margin-left: -75px;
+    font-weight: 400;
+    font-size: large;
+    width: 430px;
+}
+.third{
+    margin-left: -89px;
+    margin-right: -70px;
+    margin-top: 30px;
+    list-style: none;
+    font-weight: 400;
+    font-size: large;
+    text-align: left;
+}
+.fourth{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.fourth img{
+    margin-bottom: 3px;
+}
+
+
+
 

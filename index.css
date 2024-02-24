@@ -210,8 +210,13 @@ nav ul li a:hover{
 .main_4{
     display: flex;
     align-items: center;
-    background-color: white;
-    color: black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
 }
 .main_4_text1 h3{
     font-size: 66px;
@@ -222,11 +227,14 @@ nav ul li a:hover{
 .main_4_text2 p{
     font-size: 22px;
 }
-.main_4_text1{
-    margin-top: 100px;
-    margin-right: 30px;
-    margin-left: 200px;
-    margin-bottom: 100px;
+
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0s, padding 0.5s;
 }
 
 .accordion input[type="radio"]:checked + label + .content{
@@ -305,4 +313,80 @@ nav ul li a:hover{
     margin-right: 650px;
     border-radius: 10px;
 }
+footer{
+    background: linear-gradient(0deg, #000000, #000000),
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.first{
+    margin-top: 20px;
+    margin-left: -115px;
+}
+.second{
+    margin-top: 20px;
+    margin-left: -75px;
+    font-weight: 400;
+    font-size: large;
+    width: 430px;
+}
+.third{
+    margin-left: -89px;
+    margin-right: -70px;
+    margin-top: 16px;
+    list-style: none;
+    font-weight: 400;
+    font-size: large;
+    text-align: left;
+    margin-top: 31px;
+}
+
+.aboutus_main{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    color: grey;
+    margin: auto;
+  width: 50%;
+  font-size: 3rem;
+}
+.aboutus_main h3{
+    font-weight: bold;
+    color: white;
+}
+.aboutus_people{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    color: grey;
+    margin: auto;
+  width: 50%;
+  font-size: 2rem;
+  display: block;
+  justify-content: center;
+}
+.aboutus_people_first{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.aboutus_people_second{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.aboutus_people_individual{
+    margin: 0rem 5rem 1rem 5rem;
+    text-align: center;
+}
+.aboutus_people_individual p,h3{
+    margin: 0px;
+}
+.aboutus_people_individual h3{
+    color: white;
+}
+
+
+
 

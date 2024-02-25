@@ -2,11 +2,11 @@ html{
     background-color: black;
     color: white;
     font-size: 62.5%;
-    font-family: 'Gothic A1';
+    font-family: 'Poppins';
 }
 body {
     margin: 0;
-    font-family: 'Gothic A1';
+    font-family: 'Poppins';
 }
 header {
     display: flex;
@@ -70,6 +70,8 @@ nav ul li a:hover{
     padding: 10px 25px 10px 25px;
     margin-left: 100px;
     border-radius: 10px;
+    height: 64.667px;
+    width: 332px;
 }
 .form_main{
     margin-top: 100px;
@@ -217,6 +219,8 @@ nav ul li a:hover{
     margin-bottom: 2px;
     cursor: pointer;
     position: relative;
+    border-style: solid;
+    border-width: 2px;
 }
 
 label::after{
@@ -238,7 +242,8 @@ input[type="radio"]{
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0s, padding 0.5s;
+    transition: max-height 0s,
+    padding 0.5s;
 }
 
 .accordion input[type="radio"]:checked + label + .content{

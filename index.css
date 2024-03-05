@@ -114,6 +114,7 @@ nav ul li a:hover {
 .form_main button {
   font-size: 23px;
   margin-right: 30px;
+  min-height: 162px;
   height: 162px;
   width: 162px;
   border-radius: 20px;

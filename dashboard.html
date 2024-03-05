@@ -22,16 +22,18 @@
             <a href="#">Clients</a>
             <a href="#">Contact</a>
           </div>
-          <script>function myFunction(x) {
-            x.classList.toggle("change");
-          }
-          function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
+          <script>
+            function myFunction(x) {
+              x.classList.toggle("change");
+            }
+                      function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}</script>
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+          </script>
         <a href="#"><img src="./images/Frame 148.svg" alt="Moon Finance Logo"></a>
         
         <nav>
@@ -50,6 +52,12 @@ function closeNav() {
         </nav>
     </header>
    
-    
+    <div class="chart-container">
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard.js"></script>
+
 </body>
 </html>

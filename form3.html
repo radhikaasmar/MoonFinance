@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
 </head>
+<script src="script.js"></script>
 <body>
     <header>
         <a href="#"><img src="./images/Frame 148.svg" alt="Moon Finance Logo"></a>
@@ -29,14 +30,13 @@
     </header>
     <div class="form_main">
         <img src="./images/Frame 23-3.png">
-        <p>QUESTION 3/5</p>
-        <h1>In case of your investment goes down 10% after investing, what will you do? </h1>
+        <p>QUESTION 3/9</p>
+        <h1>Your investment pattern. </h1>
         <div class="form_buttons">
-            <button class="button_wrap">Average</button>
-            <button class="button_wrap">Stay Invested</button>
-            <button class="button_wrap">Partially Exit</button>
-            <button class="button_wrap">Fully Exit</button>
-        </div>
+            <button id = "3a" class="button_wrap" onclick="app(3,1)">Low risk, Low return</button>
+            <button id = "3b" class="button_wrap" onclick="app(3,2)">Moderate risk, Moderate return</button>
+            <button id = "3c" class="button_wrap" onclick="app(3,3)">High risk, High return</button>
+        </div>  
         <div class="form_active">
             <a href="./form2.html">Back</a>
             <a href="./form4.html">Next</a>

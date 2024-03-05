@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
 </head>
+<script src="script.js"></script>
 <body>
     <header>
         <a href="#"><img src="./images/Frame 148.svg" alt="Moon Finance Logo"></a>
@@ -29,18 +30,18 @@
     </header>
     <div class="form_main">
         <img src="./images/Frame 33-2.png">
-        <p>QUESTION 5/5</p>
-        <h1>When it comes to investing in any kind of asset I would describe myself as...</h1>
+        <p>QUESTION 5/9</p>
+        <h1>My current and future income sources (for example, salary, social security, pensions) are... </h1>
         <div class="form_buttons">
-            <button class="button_wrap">⁠Very inexperienced</button>
-            <button class="button_wrap">Inexperienced</button>
-            <button class="button_wrap">Somewhat Experienced</button>
-            <button class="button_wrap">Experienced</button>
-            <button class="button_wrap">Very Experienced</button>
+            <button id = "5a" class="button_wrap" onclick="app(5,1)">Very unstable</button>
+            <button id = "5b" class="button_wrap" onclick="app(5,2)">Unstable</button>
+            <button id = "5c" class="button_wrap" onclick="app(5,3)">Somewhat stable</button>
+            <button id = "5d" class="button_wrap" onclick="app(5,4)">Stable</button>
+            <button id = "5e" class="button_wrap" onclick="app(5,5)">Very Stable</button>
         </div>
         <div class="form_active">
             <a href="./form4.html">Back</a>
-            <a href="./dashboard.html">Next</a>
+            <a href="./form6.html">Next</a>
         </div>
     </div>
 </body>

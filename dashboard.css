@@ -62,3 +62,7 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+.mychart{
+  width: 50%;
+  height: 50%;
+}

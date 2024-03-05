@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
 </head>
+<script src="script.js"></script>
 <body>
     <header>
         <a href="#"><img src="./Frame 148.svg" alt="Moon Finance Logo"></a>
@@ -28,15 +29,13 @@
     </header>
     <div class="form_main">
         <img src="./images/Frame 23-2.png">
-        <p>QUESTION 2/5</p>
-        <h1>My current and future income sources (for example, salary, social security, 
-            pensions) are</h1>
+        <p>QUESTION 2/9</p>
+        <h1>In case of your investment goes down 10% after investing, what will you do?</h1>
         <div class="form_buttons">
-            <button class="button_wrap">Very Unstable</button>
-            <button class="button_wrap">Unstable</button>
-            <button class="button_wrap">Somewhat Stable</button>
-            <button class="button_wrap">Stable</button>
-            <button class="button_wrap">Very Stable</button>
+            <button id = "2a" class="button_wrap" onclick="app(2,1)">Will exit and will invest in FD</button>
+            <button id = "2b" class="button_wrap" onclick="app(2,2)">Will hold till cost price comes and exit there</button>
+            <button id = "2c" class="button_wrap" onclick="app(2,3)">No worry, invested for long term</button>
+            <button id = "2d" class="button_wrap" onclick="app(2,4)">Average</button>
         </div>
         <div class="form_active">
             <a href="./form1.html">Back</a>

@@ -31,46 +31,13 @@
         </nav>
     </header>  
     <div class="main">
-        <script>
-            var main = document.querySelector(".main");
-
-main.addEventListener("mousemove", function (e) {
-main.style.backgroundPositionX = -e.offsetX * 0.1 + "px";
-main.style.backgroundPositionY = -e.offsetY * 0.05 + "px";
-});
-
-//reset the background positions back to the original on mouseleave
-
-main.addEventListener("mouseleave", function () {
-main.style.backgroundPosition = "0px 0px";
-});
-            let qns = {
-                        1:'',
-                        2:'',
-                        3:'',
-                        4:'',
-                        5:'',
-                        6:'',
-                        7:'',
-                        8:'',
-                        9:'',
-                    }
-                    qns_str = JSON.stringify(qns)
-                    localStorage.setItem("qns",qns_str)
-        </script>
-        <div style="display: flex; justify-content: center;">
-        <div style="width: 807px;">
-        <h1 style="line-height: 1;">
-            MOON<br>FINANCE
+        <h1>
+            MOON <br> FINANCE
         </h1>
         <h2>
             AI investment advisory for GenZ
         </h2>
-        <a href="./form1.html" class="start_investing">Start Investing &#8594;</a></div>
-        <div class="main_ani">
-                <div class="moon">
-                </div>
-        </div></div>
+        <a href="./form1.html" class="start_investing">Start Investing &#8594;</a>
         <div class="main_2">
             <div class="main_2_text">
                 <h3>Our Solution</h3>
@@ -80,25 +47,29 @@ main.style.backgroundPosition = "0px 0px";
                     confidently build wealth and bridge the knowledge gap, turning 
                     them into knowledgeable wealth builders.</p>
             </div>
-            <div class="main_2_img">
+            <div class="main_2_img" style="margin-left: 250px;">
                 <img src="./images/iPhone 13 Pro.png">
             </div>
         </div>
-        <div class="main_3">
-            <div class="main_3_text">
-                <h3>We are Recognized by</h3>
+        <div style="display: flex; justify-content: center;">
+            <div class="main_3" >
+                <div class="main_3_text">
+                    <h3>We are Recognized by</h3>
+                </div>
+                <div class="main_3_images">
+                    <img src="./images/micro.png">
+                    <img src="./images/ecount.png">
+                    <img src="./images/vit.png">
+                </div>
             </div>
-            <div class="main_3_images">
-                <img src="./images/micro.png">
-                <img src="./images/ecount.png">
-                <img src="./images/vit.png">
             </div>
-        </div>
         <hr>
         <div class="faq">
+            <div style="display: flex; justify-content: center;">
+                <div>
             <h2>-FAQs</h2>
             <h1>Questions ??
-                Look Here .</h1>
+                Look Here .</h1></div></div>
             <ul class="accordion">
                 <li>
                     <input type="radio" name="accordion" id="first">

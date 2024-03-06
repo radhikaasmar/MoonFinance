@@ -6,6 +6,7 @@
     <title>Moon Finance</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="script.js">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,49 +32,15 @@
         </nav>
     </header>  
     <div class="main">
-        <script>
-            var main = document.querySelector(".main");
-
-            main.addEventListener("mousemove", function (e) {
-            main.style.backgroundPositionX = -e.offsetX * 0.1 + "px";
-            main.style.backgroundPositionY = -e.offsetY * 0.05 + "px";
-            });
-
-            //reset the background positions back to the original on mouseleave
-
-            main.addEventListener("mouseleave", function () {
-            main.style.backgroundPosition = "0px 0px";
-            });
-            console.log("working")
-            let qns = {
-                1:'',
-                2:'',
-                3:'',
-                4:'',
-                5:'',
-                6:'',
-                7:'',
-                8:'',
-                9:'',
-            }
-            qns_str = JSON.stringify(qns)
-            localStorage.setItem("qns",qns_str)
-        </script>
-        <div style="display: flex; justify-content: center;">
-        <div style="width: 807px;">
         <h1>
-            MOON<br>FINANCE
+            MOON <br> FINANCE
         </h1>
         <h2>
             AI investment advisory for GenZ
         </h2>
-        <a href="./form1.html" class="start_investing">Start Investing &#8594;</a></div>
-        <div class="main_ani">
-                <div class="moon">
-                </div>
-        </div></div>
-        <div class="main_2" style="display: flex; justify-content: center;">
-            <div class="main_2_text" style="margin-right: 250px;">
+        <a href="./form1.html" class="start_investing">Start Investing &#8594;</a>
+        <div class="main_2">
+            <div class="main_2_text">
                 <h3>Our Solution</h3>
                 <p>Our platform, driven by data-driven algorithms and Al, 
                     tailors investment portfolios for non-finance investors. 
@@ -166,7 +133,7 @@
     <div class="footer">
       <div class="first">
         <a href="#"><img src="./images/Frame 148.svg" alt="Moon Finance Logo"></a>
-        <h3><img src="images/phone.png" style="height: 15px; width: 15px;">+919367754427</h3>
+        <h3><img src="images/phone.png" style="height: 15px; width: 15px;">+91635333</h3>
         <h3><img src="images/mail.svg" style="height: 15px; width: 15px;">shrey.moonfinance@gmail.com</h3>
       </div>
       <div class="second">

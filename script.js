@@ -1,4 +1,5 @@
 
+
 qns = JSON.parse(localStorage.getItem("qns"))
 console.log(qns)
 function app(a,b){
@@ -66,5 +67,4 @@ function GetScores(){
 if(chk==9){
     GetScores();
 }
-
 

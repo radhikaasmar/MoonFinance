@@ -127,6 +127,10 @@ nav ul li a:hover {
     margin-bottom: 100px;
 
 }
+.form_main button:hover{
+  background-color: #504e4e;
+  border: 1px solid white;
+}
 
 .form_main .form_active {
   margin-top: 100px;

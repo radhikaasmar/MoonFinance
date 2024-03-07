@@ -27,4 +27,18 @@ html{
     grid-template-columns: 30rem;
     text-align: center;
 }
+.dashboard_right button{
+    height: 25%;
+    width: 63%;
+    margin-top: 20px;
+    font-size: large;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #0455BF;    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+}
 

@@ -3,6 +3,10 @@ const ctx = document.getElementById('myChart').getContext('2d');
 rsk = JSON.parse(localStorage.getItem("rsk"))
 stab = JSON.parse(localStorage.getItem("stab"))
 diver = JSON.parse(localStorage.getItem("diver"))
+risky = (localStorage.getItem("risky"))
+
+rick = document.getElementById("rick")
+rick.innerHTML= risky
 
 rmax = 4*1.5
 smax = 5.25 *1.5
